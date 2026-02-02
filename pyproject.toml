@@ -1,0 +1,44 @@
+[project]
+name = "copula-short-course"
+version = "1.0.0"
+description = "Copula modeling course with Jupyter notebooks"
+requires-python = ">=3.10"
+dependencies = [
+    # Core scientific stack
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.11.0",
+
+    # Visualization
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+
+    # Copula libraries
+    "pyvinecopulib>=0.6.0",
+
+    # Time series & econometrics
+    "arch>=6.0.0",
+    "statsmodels>=0.14.0",
+    "prophet>=1.1.0",
+
+    # Data sources
+    "yfinance>=0.2.0",
+    "meteostat>=1.6.0",
+
+    # Jupyter
+    "jupyter>=1.0.0",
+    "ipykernel>=6.0.0",
+    "ipywidgets>=8.0.0",
+
+    # Excel file support (for natural gas data)
+    "openpyxl>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[tool.setuptools]
+py-modules = []
+packages = []

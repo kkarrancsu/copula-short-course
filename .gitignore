@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# YouTube OAuth tokens - SENSITIVE
+.youtube-tokens.json
+scripts/.youtube-tokens.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Marketing intel data
+.marketing-intel/
+
+# Gumroad exclusive content - DO NOT COMMIT
+course-materials/
+data/
+notebooks/14_multivariatetimeseries.ipynb
+
+# YouTube API scripts (not course content)
+scripts/
+package.json
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
